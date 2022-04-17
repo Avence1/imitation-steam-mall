@@ -1,0 +1,378 @@
+/* ---base部分 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f2428;
+}
+
+a {
+    text-decoration: none;
+    color: #b8b6b4;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.clear_fix:after {
+    width: 0;
+    height: 0;
+    content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+/* ---base部分 */
+
+/* ?? 头部(未登录) */
+.header {
+    height: 104px;
+    width: 1519.2px;
+    min-width: 940px;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #171a21;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header>.content>.logo {
+    width: 220px;
+    height: 55px;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+
+.supernav_container {
+    display: inline-block;
+    padding-top: 48px;
+    position: absolute;
+}
+
+.supernav_container a.menuitem {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.supernav_container a:hover {
+    color: #fff;
+}
+
+.supernav_container .submenu {
+    width: 205px;
+    height: 211px;
+    position: absolute;
+    top: 65px;
+    display: none;
+}
+
+.supernav_container .submenu ul {
+    width: 54px;
+    display: none;
+    position: absolute;
+    box-shadow: 3px 3px 5px -3px #000;
+    padding: 5px 15px 10px 15px;
+    z-index: 3333;
+    background-color: #171a21;
+}
+
+
+.submenu_store {
+    left: 0;
+    top: 0;
+}
+
+.submenu_community {
+    left: 43px;
+}
+
+.supernav_container .submenu ul li {
+    height: 16px;
+    width: 50px;
+    padding: 6px 0px;
+}
+
+.supernav_container .submenu ul li a {
+    height: 100%;
+    width: 100%;
+    font-size: 11px;
+}
+
+.account_dropdown {
+    width: 152px;
+    height: 148px;
+    background-color: #171a21;
+    border: 1px solid #171a21;
+    box-shadow: 0 0 12px #000000;
+    position: absolute;
+    right: 58px;
+    z-index: 222;
+    display: none;
+}
+
+.action {
+    width: 258px;
+    float: right;
+    right: 0;
+    position: relative;
+    color: #b8b6b4;
+    font-size: 11px;
+}
+
+.action>.installsteam {
+    height: 21px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-top: 6px;
+    background-color: #5c7e10;
+    background-image: url("../img/installsteam_download.png");
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+}
+
+.action>.installsteam>a {
+    padding: 0 9px 0 35px;
+    font-size: 11px;
+    line-height: 21px;
+    color: #e5e4dc;
+}
+
+.action>.installsteam>a:hover {
+    color: #FFF;
+}
+
+.action>a {
+    margin-right: 6px;
+}
+
+.action>span {
+    width: 42px;
+    display: inline-block;
+    margin-left: 7px;
+    cursor: pointer;
+    background: url("../img/btn_arrow_down_padded.png") no-repeat right center;
+}
+
+.action>span:hover,
+.action>a:hover {
+    color: #FFF;
+}
+
+/* ?? 头部(未登录) */
+
+/* **内容 */
+.page {
+    width: 100%;
+    height: 800px;
+    background: url("../img/acct_creation_bg.jpg") no-repeat -492px -104px;
+}
+
+.page>.page_content {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    color: #b8b6b4;
+}
+
+.page_content .logup {
+    width: 280px;
+    padding: 50px;
+}
+
+.logup>h2 {
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email_title,
+.confirm_email_title,
+.country_select {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #b8b6b4;
+}
+
+.email,
+.confirm_email,
+.country {
+    width: 100%;
+    display: block;
+    padding: 8px 6px;
+    margin-bottom: 18px;
+    color: #E9E9E9;
+    border: 1px solid #26282D;
+    border-radius: 3px;
+    background: #32353C;
+    box-sizing: content-box;
+}
+
+.email:focus,
+.confirm_email:focus {
+    outline: 2px solid #0060df;
+}
+
+iframe {
+    margin: 25px 0;
+}
+
+div.agree {
+    width: 668px;
+}
+
+label.agree {
+    font-size: 14px;
+    color: #b8b6b4;
+    vertical-align: top;
+    margin-left: 4px;
+}
+
+input#agree {
+    display: inline;
+    width: 18px;
+    height: 18px;
+    background: #32353C;
+    border-radius: 3px;
+    color: #E9E9E9;
+    padding: 8px 6px;
+}
+
+.agree>a {
+    color: #FFF;
+}
+
+.agree>a:hover {
+    color: #66c0f4;
+}
+
+.sub {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.sub>button {
+    height: 36px;
+    display: block;
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    color: #c3e1f8;
+    background: transparent;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3)
+}
+
+.sub>button>span {
+    height: 30px;
+    line-height: 35px;
+    display: block;
+    font-size: 15px;
+    padding: 3px 80px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    background-size: 330% 100%;
+    background-position: 25%;
+}
+
+.sub>button>span:hover {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    background-size: 330% 100%;
+    background-position: 0%;
+}
+
+
+/* ** 内容 */
+
+/* +++ 底部 */
+.footer {
+    width: 100%;
+    font-size: 12px;
+    padding: 16px 0 60px 0;
+    background-color: #171a21;
+}
+
+.line {
+    width: 100%;
+    height: 8px;
+    border-top: 1px solid #363c44;
+}
+
+.footer_content {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.footer_content>.valve_logo {
+    float: left;
+    width: 88px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.valve_logo>a>img {
+    height: 25px;
+}
+
+.footer_content>.steam_logo {
+    float: right;
+    padding-top: 2px;
+}
+
+.steam_logo>img {
+    width: 92px;
+    height: 26px;
+}
+
+.footer_content>.footer_text {
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.footer_text a {
+    margin: 0 9px;
+}
+
+.footer_text a:hover {
+    color: #FFF;
+}
+
+.footer_content>.valve_links {
+    color: #C6D4DF;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.valve_links>a {
+    margin: 0 9px;
+}
+
+.valve_links>a>img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.valve_links>a:hover {
+    color: #FFF;
+}
+
+/* +++ 底部 */
