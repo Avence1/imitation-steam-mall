@@ -1,0 +1,266 @@
+[{
+  "_id": {
+    "$oid": "62693070b1b3f922026383b5"
+  },
+  "gameName": "艾尔登法环",
+  "gameId": 0,
+  "isDiscount": false,
+  "discount_pct": "",
+  "origin_price": "￥298.00",
+  "appraise": "特别好评",
+  "releaseDate": "2022年2月25日",
+  "platForm": [
+    "win",
+    "linux"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "finall_price": "￥298.00",
+  "screenshot": [
+    "../img/carousel_img/info11.jpg",
+    "../img/carousel_img/info12.jpg",
+    "../img/carousel_img/info13.jpg",
+    "../img/carousel_img/info14.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "626931c83c39e3e8c6e277ec"
+  },
+  "gameName": "Sea of Thieves",
+  "gameId": 1,
+  "isDiscount": true,
+  "discount_pct": "-50%",
+  "origin_price": "￥116.00",
+  "appraise": "特别好评",
+  "releaseDate": "2020年6月3日",
+  "platForm": [
+    "win",
+    "linux"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "screenshot": [
+    "../img/carousel_img/info21.jpg",
+    "../img/carousel_img/info22.jpg",
+    "../img/carousel_img/info23.jpg",
+    "../img/carousel_img/info24.jpg"
+  ],
+  "finall_price": "￥58.00"
+},{
+  "_id": {
+    "$oid": "6269323b2075cfe668e8187a"
+  },
+  "gameName": "Inscryption",
+  "gameId": 2,
+  "isDiscount": false,
+  "discount_pct": "",
+  "origin_price": "￥88.00",
+  "appraise": "特别好评",
+  "releaseDate": "2021年10月19日",
+  "platForm": [
+    "win",
+    "mac"
+  ],
+  "tag": [
+    "轻度Rogue",
+    "类Rogue",
+    "像素图形",
+    "2D"
+  ],
+  "state": "为您推荐",
+  "screenshot": [
+    "../img/carousel_img/info31.jpg",
+    "../img/carousel_img/info32.jpg",
+    "../img/carousel_img/info33.jpg",
+    "../img/carousel_img/info34.jpg"
+  ],
+  "finall_price": "￥88.00"
+},{
+  "_id": {
+    "$oid": "626932b3ae398233b3eac287"
+  },
+  "gameName": "Ori and the Will of the Wisps",
+  "gameId": 3,
+  "isDiscount": true,
+  "discount_pct": "-67%",
+  "origin_price": "￥90.00",
+  "appraise": "好评如潮",
+  "releaseDate": "2020年3月11日",
+  "platForm": [
+    "win"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "screenshot": [
+    "../img/carousel_img/info41.jpg",
+    "../img/carousel_img/info42.jpg",
+    "../img/carousel_img/info43.jpg",
+    "../img/carousel_img/info44.jpg"
+  ],
+  "finall_price": "￥30.00"
+},{
+  "_id": {
+    "$oid": "6269331a0e960d6a3781ff83"
+  },
+  "gameName": "永劫无间",
+  "gameId": 4,
+  "isDiscount": false,
+  "discount_pct": "",
+  "origin_price": "￥98.00",
+  "appraise": "多半好评",
+  "releaseDate": "2021年8月12日",
+  "platForm": [
+    "win"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "screenshot": [
+    "../img/carousel_img/info51.jpg",
+    "../img/carousel_img/info52.jpg",
+    "../img/carousel_img/info53.jpg",
+    "../img/carousel_img/info54.jpg"
+  ],
+  "finall_price": "￥98.00"
+},{
+  "_id": {
+    "$oid": "626933b65814829162383153"
+  },
+  "gameName": "The Witcher 3: Wild Hunt",
+  "gameId": 5,
+  "isDiscount": true,
+  "discount_pct": "-80%",
+  "origin_price": "￥158.00",
+  "appraise": "好评如潮",
+  "releaseDate": "2016年8月31日",
+  "platForm": [
+    "win",
+    "mac",
+    "linux"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "screenshot": [
+    "../img/carousel_img/info61.jpg",
+    "../img/carousel_img/info62.jpg",
+    "../img/carousel_img/info63.jpg",
+    "../img/carousel_img/info64.jpg"
+  ],
+  "finall_price": "￥31.60"
+},{
+  "_id": {
+    "$oid": "626a4b4b5f00abad8775a720"
+  },
+  "gameName": "Dead Cells",
+  "gameId": 6,
+  "isDiscount": false,
+  "discount_pct": "",
+  "origin_price": "￥298.00",
+  "appraise": "特别好评",
+  "releaseDate": "2022年2月25日",
+  "platForm": [
+    "win",
+    "linux"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "finall_price": "￥298.00",
+  "screenshot": [
+    "../img/carousel_img/info11.jpg",
+    "../img/carousel_img/info12.jpg",
+    "../img/carousel_img/info13.jpg",
+    "../img/carousel_img/info14.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "626a4b695f00abad8775a722"
+  },
+  "gameName": "DARK SOULS™ III",
+  "gameId": 7,
+  "isDiscount": true,
+  "discount_pct": "-80%",
+  "origin_price": "￥158.00",
+  "appraise": "好评如潮",
+  "releaseDate": "2016年8月31日",
+  "platForm": [
+    "win",
+    "mac",
+    "linux"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "screenshot": [
+    "../img/carousel_img/info61.jpg",
+    "../img/carousel_img/info62.jpg",
+    "../img/carousel_img/info63.jpg",
+    "../img/carousel_img/info64.jpg"
+  ],
+  "finall_price": "￥31.60"
+},{
+  "_id": {
+    "$oid": "626a4bc75f00abad8775a723"
+  },
+  "gameName": "Don't Starve Together",
+  "gameId": 8,
+  "isDiscount": false,
+  "discount_pct": "",
+  "origin_price": "￥24.00",
+  "appraise": "好评如潮",
+  "releaseDate": "2016年8月31日",
+  "platForm": [
+    "win",
+    "mac",
+    "linux"
+  ],
+  "tag": [
+    "热销商品"
+  ],
+  "state": "现已推出",
+  "screenshot": [
+    "../img/carousel_img/info61.jpg",
+    "../img/carousel_img/info62.jpg",
+    "../img/carousel_img/info63.jpg",
+    "../img/carousel_img/info64.jpg"
+  ],
+  "finall_price": "￥24.00"
+},{
+  "_id": {
+    "$oid": "626a4c3f5f00abad8775a724"
+  },
+  "gameName": "Monster Hunter:World",
+  "gameId": 9,
+  "isDiscount": true,
+  "discount_pct": "-50%",
+  "origin_price": "￥203.00",
+  "appraise": "特别好评",
+  "releaseDate": "2018年8月10日",
+  "platForm": [
+    "win"
+  ],
+  "tag": [
+    "合作",
+    "多人",
+    "动作"
+  ],
+  "state": "特别优惠",
+  "screenshot": [
+    "../img/carousel_img/info101.jpg",
+    "../img/carousel_img/info102.jpg",
+    "../img/carousel_img/info103.jpg",
+    "../img/carousel_img/info104.jpg"
+  ],
+  "finall_price": "￥101.50"
+}]

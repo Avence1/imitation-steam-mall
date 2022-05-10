@@ -1,0 +1,510 @@
+/* ---base部分 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f2428;
+}
+
+a {
+    text-decoration: none;
+    color: #b8b6b4;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.clear_fix:after {
+    width: 0;
+    height: 0;
+    content: '';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+/* ---base部分 */
+
+/* ?? 头部(未登录) */
+.header {
+    height: 104px;
+    width: 1519.2px;
+    min-width: 940px;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #171a21;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header>.content>.logo {
+    width: 220px;
+    height: 55px;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+
+.supernav_container {
+    display: inline-block;
+    padding-top: 48px;
+    position: absolute;
+}
+
+.supernav_container a.menuitem {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.supernav_container a:hover {
+    color: #fff;
+}
+
+.supernav_container .submenu {
+    width: 205px;
+    height: 211px;
+    position: absolute;
+    top: 65px;
+    display: none;
+}
+
+.supernav_container .submenu ul {
+    width: 54px;
+    display: none;
+    position: absolute;
+    box-shadow: 3px 3px 5px -3px #000;
+    padding: 5px 15px 10px 15px;
+    z-index: 3333;
+    background-color: #171a21;
+}
+
+
+.submenu_store {
+    left: 0;
+    top: 0;
+}
+
+.submenu_community {
+    left: 43px;
+}
+
+.supernav_container .submenu ul li {
+    height: 16px;
+    width: 50px;
+    padding: 6px 0px;
+}
+
+.supernav_container .submenu ul li a {
+    height: 100%;
+    width: 100%;
+    font-size: 11px;
+}
+
+.account_dropdown {
+    width: 152px;
+    height: 148px;
+    background-color: #171a21;
+    border: 1px solid #171a21;
+    box-shadow: 0 0 12px #000000;
+    position: absolute;
+    right: 58px;
+    z-index: 222;
+    display: none;
+}
+
+.action {
+    width: 258px;
+    float: right;
+    right: 0;
+    position: relative;
+    color: #b8b6b4;
+    font-size: 11px;
+}
+
+.action>.installsteam {
+    height: 21px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-top: 6px;
+    background-color: #5c7e10;
+    background-image: url("../img/installsteam_download.png");
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+}
+
+.action>.installsteam>a {
+    padding: 0 9px 0 35px;
+    font-size: 11px;
+    line-height: 21px;
+    color: #e5e4dc;
+}
+
+.action>.installsteam>a:hover {
+    color: #FFF;
+}
+
+.action>a {
+    margin-right: 6px;
+}
+
+.action>span {
+    width: 42px;
+    display: inline-block;
+    margin-left: 7px;
+    cursor: pointer;
+    background: url("../img/btn_arrow_down_padded.png") no-repeat right center;
+}
+
+.action>span:hover,
+.action>a:hover {
+    color: #FFF;
+}
+
+/* ?? 头部(未登录) */
+
+/* **内容 */
+.page {
+    width: 100%;
+    height: 800px;
+    background: url("../img/acct_creation_bg.jpg") no-repeat -492px -104px;
+}
+
+.page>.page_content {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    color: #b8b6b4;
+    overflow: hidden;
+}
+
+.page_content .logup {
+    width: 280px;
+    padding: 50px;
+}
+
+.logup>h2 {
+    font-size: 32px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email_title,
+.confirm_email_title,
+.country_select,
+.account_title,
+.enter_password_title,
+.confirm_password_title {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #b8b6b4;
+}
+
+.email,
+.confirm_email,
+.country,
+.accountName,
+.enter_password,
+.confirm_password {
+    width: 100%;
+    display: block;
+    padding: 8px 6px;
+    margin-bottom: 18px;
+    color: #E9E9E9;
+    border: 1px solid #26282D;
+    border-radius: 3px;
+    background: #32353C;
+    box-sizing: content-box;
+}
+
+.email:focus-visible,
+.confirm_email:focus-visible {
+    outline: 2px solid #0060df;
+}
+
+
+
+.sub {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.sub>button {
+    height: 36px;
+    display: block;
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    color: #c3e1f8;
+    background: transparent;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3)
+}
+
+.sub>button>span {
+    height: 30px;
+    line-height: 35px;
+    display: block;
+    font-size: 15px;
+    padding: 3px 80px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    background-size: 330% 100%;
+    background-position: 25%;
+}
+
+.sub>button>span:hover {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    background-size: 330% 100%;
+    background-position: 0%;
+}
+
+
+/* ** 内容 */
+
+/* +++ 底部 */
+.footer {
+    width: 100%;
+    font-size: 12px;
+    padding: 16px 0 60px 0;
+    background-color: #171a21;
+}
+
+.line {
+    width: 100%;
+    height: 8px;
+    border-top: 1px solid #363c44;
+}
+
+.footer_content {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.footer_content>.valve_logo {
+    float: left;
+    width: 88px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.valve_logo>a>img {
+    height: 25px;
+}
+
+.footer_content>.steam_logo {
+    float: right;
+    padding-top: 2px;
+}
+
+.steam_logo>img {
+    width: 92px;
+    height: 26px;
+}
+
+.footer_content>.footer_text {
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.footer_text a {
+    margin: 0 9px;
+}
+
+.footer_text a:hover {
+    color: #FFF;
+}
+
+.footer_content>.valve_links {
+    color: #C6D4DF;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.valve_links>a {
+    margin: 0 9px;
+}
+
+.valve_links>a>img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.valve_links>a:hover {
+    color: #FFF;
+}
+
+/* +++ 底部 */
+@keyframes loading {
+    0% {
+        transform: scale(1.0, 0.6);
+        background-color: #67c1f5;
+    }
+
+    30% {
+        transform: scale(1.0, 1.0);
+        background-color: #67c1f5;
+    }
+
+    55% {
+        transform: scale(1.0, 0.6);
+        background-color: #67c1f5;
+    }
+
+    100% {
+        transform: scale(1.0, 0.6);
+        background-color: #67c1f5;
+    }
+}
+
+.loading {
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    display: none;
+}
+
+.loading>div {
+    float: left;
+    margin-right: 6px;
+    width: 12px;
+    height: 68px;
+    background-color: #67c1f5;
+    animation: loading 1s ease-in-out infinite;
+}
+
+.loading>div:nth-child(2) {
+    animation-delay: 0.16s;
+}
+
+.loading>div:nth-child(3) {
+    animation-delay: 0.32s;
+}
+
+.hasaccount {
+    padding: 50px;
+    display: none;
+}
+
+.hasaccount>.title {
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hasaccount>.context {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+
+.hasaccount>.usenew {
+    width: 192px;
+    height: 38px;
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: normal;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: #c3e1f8;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+
+}
+
+.hasaccount>.usenew:hover {
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    background-position: 0%;
+    background-size: 330% 100%;
+}
+
+.hasaccount>a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: #A6A5AB;
+    font-size: 12px;
+}
+
+.hasaccount>.hr {
+    height: 1px;
+    margin: 30px 0;
+    background: #3C3F48;
+}
+
+.hasaccount>.create_new_account>div {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #BEC2CD;
+}
+
+.create_new_account>button {
+    width: 132px;
+    height: 38px;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    color: #dfe3e6;
+    background: linear-gradient(to right, #32363f 5%, #32363f 95%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-out;
+}
+
+.create_new_account>button:hover {
+    background: linear-gradient(to right, #464d58 5%, #464d58 95%);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.page_content .warning {
+    display: none;
+    width: 555px;
+    font-size: 15px;
+    line-height: 33px;
+    margin-top: 55px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid #b44040;
+    background-color: #101214;
+    animation: color 1s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes color {
+    0% {
+        background-color: rgba(200, 64, 64, 1);
+    }
+
+    50% {
+        background-color: rgba(200, 64, 64, .5);
+    }
+
+    100% {
+        background-color: #101214;
+    }
+}
